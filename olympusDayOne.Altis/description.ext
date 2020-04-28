@@ -1,8 +1,8 @@
 author="Olympus Entertainment Dev Team";
-onLoadName = "Olympus Junior Dev Mission";
-onLoadMission = "Test Mission for Olympus Junior Developers.";
-overviewText = "Test Mission for Olympus Junior Developers.";
-overviewTextLocked = "Test Mission for Olympus Junior Developers.";
+onLoadName = "SQF Learning Development Mission";
+onLoadMission = "Test Mission for Interested SQF Developers";
+overviewText = "Test Mission for Interested SQF Developers";
+overviewTextLocked = "Test Mission for Interested SQF Developers";
 overviewPicture = "";
 loadScreen = "";
 OnLoadIntroTime = 0;
