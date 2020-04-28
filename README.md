@@ -11,3 +11,10 @@ Scripting Event Handlers: https://community.bistudio.com/wiki/Arma_3:_Event_Hand
 Useful IDE for programing SQF (Poseidon Tools): http://tom4897.info/poseidontools_community_latest/
 
 
+Useful PDF Guides (Fockers):
+
+http://burns.digitalsurvival.net/downloads/ArmA/Fockers%20Arma%20Scripting%20-%20Chapter%201.pdf
+
+http://burns.digitalsurvival.net/downloads/ArmA/Fockers%20Arma%20Scripting%20-%20Chapter%202.pdf
+
+http://burns.digitalsurvival.net/downloads/ArmA/Fockers%20Arma%20Scripting%20-%20Chapter%203.pdf
