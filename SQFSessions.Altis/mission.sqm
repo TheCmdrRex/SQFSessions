@@ -5,17 +5,17 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=641;
+	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=14;
+		nextID=19;
 	};
 	class Camera
 	{
-		pos[]={3632.9055,14.765171,13120.292};
-		dir[]={0.69687653,-0.47617918,-0.53634012};
-		up[]={0.37736297,0.87933964,-0.29043216};
-		aside[]={-0.60992509,-1.5832484e-007,-0.79248446};
+		pos[]={14699.365,57.664207,16736.066};
+		dir[]={-0.4235478,-0.8423391,0.33344483};
+		up[]={-0.66182846,0.53895497,0.521034};
+		aside[]={0.61858904,-1.1628726e-006,0.78575844};
 	};
 };
 binarizationWanted=0;
@@ -33,13 +33,18 @@ addons[]=
 	"A3_Soft_F_MRAP_01",
 	"A3_Soft_F_MRAP_02",
 	"A3_Soft_F_Gamma_Truck_01",
-	"A3_Ui_F"
+	"A3_Soft_F_Exp_Truck_01",
+	"A3_Ui_F",
+	"A3_Armor_F_Gamma_MBT_01",
+	"A3_Armor_F_EPC_MBT_01",
+	"A3_Armor_F_EPB_MBT_03",
+	"A3_Air_F_Jets_Plane_Fighter_02"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=8;
+		items=13;
 		class Item0
 		{
 			className="A3_Characters_F_Exp";
@@ -91,8 +96,43 @@ class AddonsMetaData
 		};
 		class Item7
 		{
+			className="A3_Soft_F_Exp";
+			name="Arma 3 Apex - Unarmored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item8
+		{
 			className="A3_Ui_F";
 			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item9
+		{
+			className="A3_Armor_F_Gamma";
+			name="Arma 3 - Armored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item10
+		{
+			className="A3_Armor_F_EPC";
+			name="Arma 3 Win Episode - Armored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item11
+		{
+			className="A3_Armor_F_EPB";
+			name="Arma 3 Adapt Episode - Armored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item12
+		{
+			className="A3_Air_F_Jets";
+			name="Arma 3 Jets - Aircraft";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
@@ -196,7 +236,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=11;
+		items=15;
 		class Item0
 		{
 			dataType="Group";
@@ -209,13 +249,15 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3636.28,10.124935,13116.839};
+						position[]={14664.853,17.911438,16745.828};
+						angles[]={0,2.2293718,0};
 					};
 					side="Civilian";
 					flags=7;
 					class Attributes
 					{
 						name="civ_1";
+						isPlayer=1;
 						isPlayable=1;
 						class Inventory
 						{
@@ -281,7 +323,6 @@ class Mission
 					};
 					id=1;
 					type="C_man_sport_1_F";
-					atlOffset=9.5367432e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -330,15 +371,14 @@ class Mission
 			{
 			};
 			id=0;
-			atlOffset=9.5367432e-007;
 		};
 		class Item1
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3643.1223,11.617718,13126.407};
-				angles[]={0.0053265258,4.7441564,0.013332055};
+				position[]={14664.36,19.359962,16766.24};
+				angles[]={-0,2.3754809,0};
 			};
 			side="Empty";
 			flags=4;
@@ -347,15 +387,15 @@ class Mission
 			};
 			id=2;
 			type="C_Hatchback_01_sport_F";
-			atlOffset=-1.1444092e-005;
+			atlOffset=-0.00016021729;
 		};
 		class Item2
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3620.0898,12.157959,13121.257};
-				angles[]={0.0093286335,0.10862559,0.010664274};
+				position[]={14655.259,20.080462,16728.488};
+				angles[]={-0,0.70432359,0};
 			};
 			side="Empty";
 			flags=4;
@@ -364,15 +404,15 @@ class Mission
 			};
 			id=3;
 			type="O_Heli_Light_02_unarmed_F";
-			atlOffset=-0.0011291504;
+			atlOffset=0.00081443787;
 		};
 		class Item3
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3651.6384,12.468001,13120.103};
-				angles[]={0,0,0.0093286335};
+				position[]={14657.271,20.115849,16758.391};
+				angles[]={-0,2.3438087,0};
 			};
 			side="Empty";
 			flags=4;
@@ -381,14 +421,15 @@ class Mission
 			};
 			id=4;
 			type="B_MRAP_01_F";
+			atlOffset=-9.727478e-005;
 		};
 		class Item4
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3651.9475,12.71034,13109.115};
-				angles[]={0.0053265258,0,0.014664836};
+				position[]={14649.742,20.353216,16748.736};
+				angles[]={-0,2.2977958,0};
 			};
 			side="Empty";
 			flags=4;
@@ -397,15 +438,15 @@ class Mission
 			};
 			id=5;
 			type="O_MRAP_02_F";
-			atlOffset=-7.9154968e-005;
+			atlOffset=-0.00028800964;
 		};
 		class Item5
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3636.2166,12.34893,13135.498};
-				angles[]={0.0053265258,1.6633042,0.0066682254};
+				position[]={14671.131,20.223392,16773.195};
+				angles[]={0,2.394958,0};
 			};
 			side="Empty";
 			flags=4;
@@ -419,11 +460,11 @@ class Mission
 		class Item6
 		{
 			dataType="Marker";
-			position[]={3636.5183,12.020243,13113.662};
+			position[]={14670.745,17.91003,16734.088};
 			name="respawn_civilian";
 			type="Empty";
 			id=7;
-			atlOffset=1.8954773;
+			atlOffset=3.0517578e-005;
 		};
 		class Item7
 		{
@@ -437,7 +478,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3639.531,10.146213,13116.765};
+						position[]={14686.915,17.911438,16759.523};
+						angles[]={0,3.5973747,0};
 					};
 					side="West";
 					flags=7;
@@ -448,7 +490,6 @@ class Mission
 					};
 					id=9;
 					type="B_soldier_M_F";
-					atlOffset=9.5367432e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -497,7 +538,6 @@ class Mission
 			{
 			};
 			id=8;
-			atlOffset=9.5367432e-007;
 		};
 		class Item8
 		{
@@ -511,7 +551,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3642.584,10.175357,13116.887};
+						position[]={14688.86,17.911438,16757.223};
+						angles[]={0,3.9004965,0};
 					};
 					side="Independent";
 					flags=7;
@@ -522,7 +563,6 @@ class Mission
 					};
 					id=11;
 					type="I_Soldier_M_F";
-					atlOffset=9.5367432e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -571,25 +611,146 @@ class Mission
 			{
 			};
 			id=10;
-			atlOffset=9.5367432e-007;
 		};
 		class Item9
 		{
 			dataType="Marker";
-			position[]={3639.469,11.748312,13113.149};
+			position[]={14673.696,17.91003,16733.574};
 			name="respawn_west";
 			type="Empty";
 			id=12;
-			atlOffset=1.6104355;
+			atlOffset=3.0517578e-005;
 		};
 		class Item10
 		{
 			dataType="Marker";
-			position[]={3642.3687,12.378647,13113.183};
+			position[]={14676.596,17.91003,16733.607};
 			name="respawn_guerrila";
 			type="Empty";
 			id=13;
-			atlOffset=2.2262278;
+			atlOffset=3.0517578e-005;
+		};
+		class Item11
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={14684.573,20.595484,16718.082};
+				angles[]={0,5.4419541,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=14;
+			type="B_MBT_01_cannon_F";
+		};
+		class Item12
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={14695.523,20.638607,16728.756};
+				angles[]={-0,5.5159068,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=15;
+			type="I_MBT_03_cannon_F";
+		};
+		class Item13
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={14632.183,20.383251,16675.961};
+				angles[]={-0,2.3574953,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=16;
+			type="O_Plane_Fighter_02_Stealth_F";
+		};
+		class Item14
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={14690.29,17.911438,16755.463};
+						angles[]={0,3.9324362,0};
+					};
+					side="Civilian";
+					flags=7;
+					class Attributes
+					{
+						skill=0.2;
+						name="civ_2";
+						isPlayable=1;
+					};
+					id=18;
+					type="C_man_p_beggar_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GRE";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=17;
 		};
 	};
 };
