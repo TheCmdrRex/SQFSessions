@@ -1,0 +1,46 @@
+author="Olympus Entertainment Dev Team";
+onLoadName = "Olympus Junior Dev Mission";
+onLoadMission = "Test Mission for Olympus Junior Developers.";
+overviewText = "Test Mission for Olympus Junior Developers.";
+overviewTextLocked = "Test Mission for Olympus Junior Developers.";
+overviewPicture = "";
+loadScreen = "";
+OnLoadIntroTime = 0;
+OnLoadMissionTime = 0;
+allowFunctionsLog = 1;
+allowFunctionsRecompile = 0;
+briefing = 0;
+
+joinUnassigned = 1;
+respawn = BASE;
+disabledAI = 1;
+disableChannels[]={0,1,2};
+enableDebugConsole = 1;
+respawnDialog = 0;
+scriptedPlayer = 1;
+forceRotorLibSimulation = 2;
+
+class Header {
+	gameType = RPG;
+	minPlayers = 1;
+	maxPlayers = 100;
+};
+
+
+respawndelay = 1;
+wreckLimit = 3;
+wreckRemovalMinTime = 60;
+wreckRemovalMaxTime = 320;
+corpseLimit = 75;
+corpseRemovalMinTime = 600;
+corpseRemovalMaxTime = 1200;
+
+showHUD[] = {1,1,0,1,0,0,1,1,1};
+
+class CfgFunctions {
+	#include "Functions.h"
+};
+
+class CfgRemoteExec {
+	#include "CfgRE.hpp"
+};
