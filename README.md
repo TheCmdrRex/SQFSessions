@@ -32,3 +32,6 @@ http://burns.digitalsurvival.net/downloads/ArmA/Fockers%20Arma%20Scripting%20-%2
 
 
 **Enjoy!**
+
+*If you have questions or would like to contribute, feel free to add TheCmdrRex on Discord at TheCmdrRex#6077*
+*If you would like to support me, feel free to check TheCmdrRex out at https://www.twitch.tv/thecmdrrex*
