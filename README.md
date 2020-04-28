@@ -22,16 +22,17 @@ http://burns.digitalsurvival.net/downloads/ArmA/Fockers%20Arma%20Scripting%20-%2
 
 ## How to Setup Mission File:
 
-**Step 1)** Paste ".Altis" folder into 'C:\Users\<username>\Documents\Arma 3 - Other Profiles\<profile name>\missions' folder
+- Paste ".Altis" folder into 'C:\Users\<username>\Documents\Arma 3 - Other Profiles\<profile name>\missions' folder
 
-	Note: MPmissions folder also works
+  - Note: MPmissions folder also works
 	
-**Step 2)** Launch Arma 3 and go to Singleplayer Editor on Altis. 
+- Launch Arma 3 and go to Singleplayer Editor on Altis. 
 
-**Step 3)** Open newly pasted ".Altis" mission file.
+- Open newly pasted ".Altis" mission file.
 
 
 **Enjoy!**
 
 *If you have questions or would like to contribute, feel free to add TheCmdrRex on Discord at TheCmdrRex#6077*
+
 *If you would like to support me, feel free to check TheCmdrRex out at https://www.twitch.tv/thecmdrrex*
