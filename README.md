@@ -22,7 +22,7 @@ http://burns.digitalsurvival.net/downloads/ArmA/Fockers%20Arma%20Scripting%20-%2
 
 ## How to Setup Mission File:
 
-- Paste ".Altis" folder into 'C:\Users\\<username>\Documents\Arma 3 - Other Profiles\\<profile name>\missions' folder
+- Paste ".Altis" folder into 'C:\Users\{username}\Documents\Arma 3 - Other Profiles\{profile name}\missions' folder
 
   - Note: MPmissions folder also works
 	
